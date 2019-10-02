@@ -528,6 +528,7 @@ alignmentZones = (
 );
 ascender = 1368;
 capHeight = 625;
+custom = Extra;
 customParameters = (
 {
 name = typoAscender;
@@ -584,11 +585,13 @@ horizontalStems = (
 66
 );
 id = "3D3F176D-2450-4887-9AC4-1237D1CC87EB";
+name = ExtraLight;
 verticalStems = (
 72,
 79,
 89
 );
+weight = Light;
 weightValue = 65;
 xHeight = 500;
 },
@@ -604,6 +607,7 @@ alignmentZones = (
 );
 ascender = 1368;
 capHeight = 625;
+custom = Extra;
 customParameters = (
 {
 name = typoAscender;
@@ -673,6 +677,7 @@ horizontalStems = (
 160
 );
 id = "1124150E-252C-4727-BAB2-2837E441E30C";
+name = ExtraBold;
 userData = {
 GSCornerRadius = 25;
 GSOffsetHorizontal = 90;
@@ -61161,7 +61166,7 @@ value = "--fallback-stem-width=65 --detailed-info";
 },
 {
 name = weightClass;
-value = 275;
+value = 200;
 }
 );
 interpolationWeight = 65;
