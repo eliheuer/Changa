@@ -51,4 +51,7 @@ else
   echo "[ERROR] ttfautohint is not working, please update or install: https://www.freetype.org/ttfautohint/"
 fi
 
+echo "[INFO] Running fix-name-table.py"
+python3 sources/scripts/helpers/fix-name-table.py fonts/vf/$familyName-VF.ttf
+
 echo "[INFO] Done building $familyName font family"
