@@ -3,7 +3,8 @@
 DisplayStrings = (
 " /kaf-ar/teh-ar/alef-ar/beh-ar \012 /gaf-ar/teh-ar/alef-ar/beh-ar",
 "/brevecomb E/Ebreve",
-"/.notdef"
+"/.notdef",
+"/peh-ar"
 );
 copyright = "Copyright 2011 The Changa Project Authors (https://github.com/etunni/Changa)";
 customParameters = (
@@ -535,11 +536,11 @@ custom = Extra;
 customParameters = (
 {
 name = typoAscender;
-value = 1227;
+value = 1368;
 },
 {
 name = typoDescender;
-value = 613;
+value = -680;
 },
 {
 name = typoLineGap;
@@ -547,11 +548,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1227;
+value = 1368;
 },
 {
 name = hheaDescender;
-value = -613;
+value = -680;
 },
 {
 name = hheaLineGap;
@@ -559,11 +560,11 @@ value = 0;
 },
 {
 name = winDescent;
-value = 553;
+value = 680;
 },
 {
 name = winAscent;
-value = 1154;
+value = 1368;
 }
 );
 descender = -680;
@@ -613,36 +614,36 @@ capHeight = 625;
 custom = Extra;
 customParameters = (
 {
-name = typoAscender;
-value = 1227;
-},
-{
-name = typoDescender;
-value = 613;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
 name = hheaAscender;
-value = 1227;
+value = 1368;
 },
 {
 name = hheaDescender;
-value = -613;
+value = -680;
 },
 {
 name = hheaLineGap;
 value = 0;
 },
 {
-name = winDescent;
-value = 553;
+name = typoAscender;
+value = 1368;
+},
+{
+name = typoDescender;
+value = -680;
+},
+{
+name = typoLineGap;
+value = 0;
 },
 {
 name = winAscent;
-value = 1154;
+value = 1368;
+},
+{
+name = winDescent;
+value = 680;
 }
 );
 descender = -680;
@@ -61322,6 +61323,10 @@ value = "--fallback-stem-width=65 --detailed-info";
 {
 name = weightClass;
 value = 200;
+},
+{
+name = weight;
+value = "New Value";
 }
 );
 interpolationWeight = 65;
